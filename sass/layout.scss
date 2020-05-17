@@ -1,0 +1,34 @@
+.container {
+    overflow-x: hidden;
+
+    .sideNav {
+        background: var(--color-green);
+    }
+
+    .main {}
+
+    .projects {
+        // background: url('../assets/corrugati.png');
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        align-items: flex-start;
+
+        .sideNav {
+            width: 30%;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            width: 70%;
+            height: 100vh;
+            overflow: scroll;
+            scroll-behavior: smooth;
+
+            .main {}
+        }
+    }
+}

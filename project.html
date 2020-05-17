@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="sideNav">
+				<p class="welcome">Welcome to my Website</p>
+				<h2 class="name">Oishi<br />Yuikyo</h2>
+				<p class="intro">
+					The enthusiastic learner and<br /><span
+						class="txt-type"
+						data-wait="3000"
+						data-words='["amature web engineer","a man who has passion for frontend development:)", "a human who codes."]'
+					></span>
+				</p>
+				<ul class="link">
+					<li class="link-item"><a href="index.html">・Home</a></li>
+					<li class="link-item">
+						<a href="project.html">・Works</a>
+					</li>
+				</ul>
+				<p class="copy">&copy; 2020. Credits</p>
+			</nav>
+			<main class="main-container">
+				<div class="projects">
+					<div class="card">
+						<div class="ribbon ribbon-top-left">
+							<span
+								><i
+									class="fab fa-vuejs fa-lg"
+									style="font-weight: bold;"
+								></i
+								>Vue.js
+							</span>
+						</div>
+						<div class="card-header">
+							<a
+								class="card-body-title"
+								href="https://rooms-ca7b1.web.app/"
+								target="_blank"
+								><video autoplay loop muted class="video">
+									<source
+										src="assets/chatroom.mp4"
+										type="video/mp4"
+									/></video
+							></a>
+						</div>
+						<div class="card-body">
+							<a
+								class="card-body-title"
+								href="https://rooms-ca7b1.web.app/"
+								target="_blank"
+								><h4>Chat App</h4>
+								<!--
+								<i class="fas fa-external-link-alt"></i>--></a
+							>
+							<div class="card-body-description">
+								<h6 class="sub-title">Description</h6>
+								<p>
+									&emsp;
+									シンプルなリアルタイムチャットアプリ。フロントエンドはVue.js、バックエンドはBaaSのFirebaseの機能に接続。その場のニックネームだけで気軽に入れるようにしています。
+								</p>
+							</div>
+							<div class="card-body-tool">
+								<h6 class="sub-title">Tool</h6>
+								<p>
+									Nuxt.js(Vue.js) / Sass / Firebase
+									(firestore, storage, hosting) / NPM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="ribbon ribbon-top-left">
+							<span>Sass jQuery</span>
+						</div>
+						<div class="card-header">
+							<a
+								class="card-body-title"
+								href="https://elastic-hodgkin-ac65c4.netlify.com/"
+								target="_blank"
+								><video autoplay loop muted class="video">
+									<source
+										src="assets/youdemy.mp4"
+										type="video/mp4"
+									/></video
+							></a>
+						</div>
+						<div class="card-body">
+							<a
+								class="card-body-title"
+								href="https://elastic-hodgkin-ac65c4.netlify.com/"
+								target="_blank"
+								><h4>Youdemy</h4>
+								<!--
+								<i class="fas fa-external-link-alt"></i>--></a
+							>
+							<div class="card-body-description">
+								<h6 class="sub-title">Description</h6>
+								<p>
+									&emsp;
+									UIコーディングの練習として、普段よく利用している「Udemy」のトップページをコピーしてみました。「static」なページです。
+								</p>
+							</div>
+							<div class="card-body-tool">
+								<h6 class="sub-title">Tool</h6>
+								<p>HTML / Sass / jQuery / NPM / Netlify</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="ribbon ribbon-top-left">
+							<span
+								><i
+									class="fab fa-laravel fa-lg"
+									style="font-weight: 700;"
+								></i
+								>Laravel
+							</span>
+						</div>
+						<div class="card-header">
+							<a
+								class="card-body-title"
+								href="http://13.114.15.90/"
+								target="_blank"
+								><video autoplay loop muted class="video">
+									<source
+										src="assets/laraChat.mp4"
+										type="video/mp4"
+									/></video
+							></a>
+						</div>
+						<div class="card-body">
+							<a
+								class="card-body-title"
+								href="http://13.114.15.90/"
+								target="_blank"
+								><h4>Chat App</h4>
+								<!--
+								<i class="fas fa-external-link-alt"></i>--></a
+							>
+							<div class="card-body-description">
+								<h6 class="sub-title">Description</h6>
+								<p>
+									&emsp;
+									PHPのフレームワークLaravelで作ったチャットアプリ。リアルタイム化はライブラリPusherで。ローカルの開発環境にはDocker、デプロイやメディアのアップロードにはAWSを使っています。
+								</p>
+							</div>
+							<div class="card-body-tool">
+								<h6 class="sub-title">Tool</h6>
+								<p>
+									Laravel(PHP) / jQuery / BootStrap(css) /
+									MySQL / Docker / AWS(EC2, S3) / Pusher
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="ribbon ribbon-top-left">
+							<span
+								><i
+									class="fab fa-vuejs fa-lg"
+									style="font-weight: bold;"
+								></i
+								>Vue.js
+							</span>
+						</div>
+						<div class="card-header">
+							<a class="card-body-title" href="#" target="_blank"
+								><video autoplay loop muted class="video">
+									<source
+										src="assets/store.mp4"
+										type="video/mp4"
+									/></video
+							></a>
+						</div>
+						<div class="card-body">
+							<a class="card-body-title" href="#" target="_blank"
+								><h4>Online Store (WIP)</h4>
+								<!--
+								<i class="fas fa-external-link-alt"></i>--></a
+							>
+							<div class="card-body-description">
+								<h6 class="sub-title">Description</h6>
+								<p>
+									&emsp; Lorem ipsum, dolor sit amet
+									consectetur adipisicing elit. Accusamus
+									reprehenderit architecto nihil placeat at?
+									Perferendis similique maxime ab, quis
+									nesciunt eligendi reiciendis sed vitae
+									inventore. Fugiat iure quo molestias itaque
+									aperiam necessitatibus expedita ipsam
+									placeat, et dolorem !
+								</p>
+							</div>
+							<div class="card-body-tool">
+								<h6 class="sub-title">Tool</h6>
+								<p>
+									Nuxt.js(Vue.js) / Sass / Firebase
+									(firestore, storage, hosting) / local
+									storage / NPM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="ribbon ribbon-top-left">
+							<span
+								><i
+									class="fab fa-react fa-lg"
+									style="font-weight: bold;"
+								></i
+								>React
+							</span>
+						</div>
+						<div class="card-header">
+							<a
+								class="card-body-title"
+								href="https://challenge-c34fe.web.app"
+								target="_blank"
+								><video autoplay loop muted class="video">
+									<source
+										src="assets/reactChat.mp4"
+										type="video/mp4"
+									/></video
+							></a>
+						</div>
+						<div class="card-body">
+							<a
+								class="card-body-title"
+								href="https://challenge-c34fe.web.app/"
+								target="_blank"
+								><h4>Chat App</h4>
+								<!--
+								<i class="fas fa-external-link-alt"></i>--></a
+							>
+							<div class="card-body-description">
+								<h6 class="sub-title">Description</h6>
+								<p>
+									&emsp;
+									フロントエンドはReact、バックエンドはFirebase。ログイン、ユーザステータスやチャンネル詳細の表示、メディアアップロード、タイピングインディケータ、画面のテーマカラー変更などの機能も。
+								</p>
+							</div>
+							<div class="card-body-tool">
+								<h6 class="sub-title">Tool</h6>
+								<p>
+									React / Semantic-UI(css) / Firebase
+									(firestore, storage, hosting) / NPM
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
